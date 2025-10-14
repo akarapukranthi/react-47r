@@ -1,0 +1,17 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return <div><h1>Sample react code</h1>
+     <h2>sample code 2</h2>
+     <h3>sample code 3</h3>
+  </div>
+
+}
+
+export default App
+
